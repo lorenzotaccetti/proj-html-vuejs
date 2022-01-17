@@ -1,8 +1,5 @@
 <template>
     <div>
-        <!-- Jumbotron -->
-        <!-- End Jumbotron -->
-
         <!-- Company Area -->
         <!-- End Company Area -->
 
@@ -24,10 +21,11 @@
 </template>
 
 <script>
+// import Jumbotron from './Jumbotron.vue'
     export default {
         name: 'Main',
         components: {
-
+            // Jumbotron
         }
     }
 </script>

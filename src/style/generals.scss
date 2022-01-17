@@ -1,4 +1,5 @@
 @import '~bootstrap/scss/bootstrap';
+@import './variables.scss';
 
 // Font
 @import '~@fontsource/poppins/200.css';
@@ -19,9 +20,11 @@ body{
 }
 
 .m_button{
+    color: white;
     padding: 8px 20px;
     border-radius: 7px;
-    border: 1px solid;
+    border: 1px solid $buttonIconColor;
+    cursor: pointer;
 }
 
 .nex_title{

@@ -19,12 +19,19 @@
                 </div>
             </div>
         </div>
+        <div class="container">
+            <Jumbotron />
+        </div>
     </div>
 </template>
 
 <script>
+import Jumbotron from './Jumbotron.vue'
     export default {
         name: 'BottomHeader',
+        components: {
+            Jumbotron
+        },
         props:{
             navArray: Array
         }
@@ -40,6 +47,9 @@
     font-size: 20px;
     padding: 25px 0;
     color: $mainFontColor;
+    background-image: url(../assets/img/bg-6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
     .disposition{
         display: flex;
@@ -50,8 +60,8 @@
             font-weight: 600;
 
             .nex_title{
-                border-color: #bbf2f5;
-                background-color: #bbf2f5;
+                border-color: #aedbde;
+                background-color: #aedbde;
                 color: $decorationColor;
                 margin-right: 3px;
             }
@@ -64,6 +74,11 @@
             .menu-element{
                 margin-left: 35px;
                 color: $secondaryFontColor;
+                cursor: pointer;
+
+                &:hover{
+                    text-decoration: underline;
+                }
             }
 
             .m_button{
