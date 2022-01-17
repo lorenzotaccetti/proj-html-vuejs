@@ -25,10 +25,15 @@
 
 <script>
     export default {
-        name: 'Main'
+        name: 'Main',
+        components: {
+
+        }
     }
 </script>
 
 <style lang="scss" scoped>
+@import '../style/generals.scss';
+@import '../style/variables.scss';
 
 </style>

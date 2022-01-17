@@ -15,5 +15,7 @@
 </script>
 
 <style lang="scss" scoped>
+@import '../style/generals.scss';
+@import '../style/variables.scss';
 
 </style>
