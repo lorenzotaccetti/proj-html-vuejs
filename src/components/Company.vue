@@ -1,5 +1,5 @@
 <template>
-    <div class="company">
+    <div class="company-area">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-6">
@@ -72,9 +72,9 @@
 @import '../style/generals.scss';
 @import '../style/variables.scss';
 
-.company{
+.company-area{
     background-color: $mainFontColor;
-    padding: 150px 0;
+    padding: 125px 0;
 
     .company-title{
         color: white;

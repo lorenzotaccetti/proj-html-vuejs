@@ -5,6 +5,7 @@
         <!-- End Company Area -->
 
         <!-- Services Area -->
+        <Services />
         <!-- End Services Area -->
 
         <!-- Process Area -->
@@ -22,11 +23,14 @@
 </template>
 
 <script>
-import Company from './Company.vue'
+import Company from './Company.vue';
+import Services from './Services.vue';
+
     export default {
         name: 'Main',
         components: {
-            Company
+            Company,
+            Services
         }
     }
 </script>
