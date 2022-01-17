@@ -1,6 +1,7 @@
 <template>
     <div>
         <!-- Company Area -->
+        <Company />
         <!-- End Company Area -->
 
         <!-- Services Area -->
@@ -21,11 +22,11 @@
 </template>
 
 <script>
-// import Jumbotron from './Jumbotron.vue'
+import Company from './Company.vue'
     export default {
         name: 'Main',
         components: {
-            // Jumbotron
+            Company
         }
     }
 </script>

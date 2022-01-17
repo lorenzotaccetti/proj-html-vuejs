@@ -75,10 +75,6 @@ import Jumbotron from './Jumbotron.vue'
                 margin-left: 35px;
                 color: $secondaryFontColor;
                 cursor: pointer;
-
-                &:hover{
-                    text-decoration: underline;
-                }
             }
 
             .m_button{

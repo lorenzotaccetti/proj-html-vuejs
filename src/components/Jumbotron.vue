@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-6 offset-6">
                     <div>
-                        <div class="fusion">
+                        <div class="intestazione">
                             Fusion & acquisitions
                         </div>
                         <h1>
@@ -45,18 +45,12 @@
 .jumbotron{
     padding: 200px 0;
 
-    .fusion{
-        color: $buttonIconColor;
-        text-transform: uppercase;
-        margin-bottom: 10px;
-        font-size: 20px;
-    }
-
     h1{
         color: $mainFontColor;
         font-size: 70px;
         font-weight: 700;
         margin-bottom: 20px;
+        text-transform: capitalize;
     }
 
     .form-type{

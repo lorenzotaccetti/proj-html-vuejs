@@ -33,3 +33,22 @@ body{
     border-top-left-radius: 22px;
     border-bottom-left-radius: 22px;
 }
+
+.intestazione{
+    font-size: 15px;
+    font-weight: 600;
+    color: #048383;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.main-area-title{
+    font-size: $areaTitleSize;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.main-area-title-detail{
+    padding: 0px 10px;
+    border-radius: 7px;
+}
