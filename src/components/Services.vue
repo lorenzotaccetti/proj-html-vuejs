@@ -16,7 +16,7 @@
                         We are leaders in providing consultancy services with a set of cutting-edge technologies and a team of experienced and renowned professionals. These are some options that you can hire.
                     </div>
                 </div>
-                <div class="col-2 offset-2">
+                <div class="col-2 offset-2 text-end">
                     <a class="m_button">
                         See All
                     </a>
