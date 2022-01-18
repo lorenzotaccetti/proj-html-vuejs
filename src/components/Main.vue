@@ -17,6 +17,7 @@
         <!-- End Team Area -->
 
         <!-- News Area -->
+        <News />
         <!-- End News Area -->
 
         <!-- Newsletter Area -->
@@ -28,7 +29,8 @@
 import Company from './Company.vue';
 import Services from './Services.vue';
 import Process from './Process.vue';
-import Team from './Team.vue'
+import Team from './Team.vue';
+import News from './News.vue';
 
     export default {
         name: 'Main',
@@ -37,6 +39,7 @@ import Team from './Team.vue'
             Services,
             Process,
             Team,
+            News,
         }
     }
 </script>

@@ -11,7 +11,7 @@
                         of Experts
                     </div>
                     <div class="team-text mb-5">
-                        Ethics and integrity are the bases on which our professionals build their careers. They are fundamentals taht become daily attitudes.
+                        Ethics and integrity are the bases on which our professionals build their careers. They are fundamentals that become daily attitudes.
                     </div>
                     <div class=row>
                         <div class="col-6">
