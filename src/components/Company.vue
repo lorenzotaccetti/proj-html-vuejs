@@ -19,7 +19,7 @@
                 </div>
                 <div class="col-6">
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-6 mb-3">
                             <div class="titolino">
                                 <i class="fas fa-award"></i>
                                 <span>Tradition</span>

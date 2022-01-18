@@ -21,17 +21,26 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-4 news-box">
-                    <img src="../assets/img/news-1.jpg" alt="">
-                    <span class="news-titolini">Increasing creativity is possible for everyone</span>
+                <div class="col-4">
+                    <div class="news-box">
+                        <img src="../assets/img/news-1.jpg" alt="">
+                        <div class="overlay"></div>
+                        <span class="news-titolini">Increasing creativity is possible for everyone</span>
+                    </div>
                 </div>
-                <div class="col-4 news-box">
-                    <img src="../assets/img/news-2.jpg" alt="">
-                    <span class="news-titolini">Because market research is part of the business plan</span>
+                <div class="col-4">
+                    <div class="news-box">
+                        <img src="../assets/img/news-2.jpg" alt="">
+                        <div class="overlay"></div>
+                        <span class="news-titolini">Because market research is part of the business plan</span>
+                    </div>
                 </div>
-                <div class="col-4 news-box">
-                    <img src="../assets/img/news-3.jpg" alt="">
-                    <span class="news-titolini">Working from home is now a trend</span>
+                <div class="col-4">
+                    <div class="news-box">
+                        <img src="../assets/img/news-3.jpg" alt="">
+                        <div class="overlay"></div>
+                        <span class="news-titolini">Working from home is now a trend</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -67,17 +76,17 @@
         text-align: center;
         position: relative;
         color: white;
-        padding: 10px;
         overflow: hidden;
+        border-radius: 7px;
 
-        &::before{
-            content: '';
+        .overlay{
+            display: inline-block;
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(0, 0, 0, 0.5);
+            background-color: rgba(0, 0, 0, 0.4);
         }
 
         img{
