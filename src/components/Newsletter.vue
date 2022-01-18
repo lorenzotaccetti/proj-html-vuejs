@@ -44,6 +44,7 @@
     background-image: url(../assets/img/bg-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 
     padding: 125px 0;
 
