@@ -21,6 +21,7 @@
         <!-- End News Area -->
 
         <!-- Newsletter Area -->
+        <Newsletter />
         <!-- End Newsletter Area -->
     </div>
 </template>
@@ -31,6 +32,7 @@ import Services from './Services.vue';
 import Process from './Process.vue';
 import Team from './Team.vue';
 import News from './News.vue';
+import Newsletter from './Newsletter.vue'
 
     export default {
         name: 'Main',
@@ -40,6 +42,7 @@ import News from './News.vue';
             Process,
             Team,
             News,
+            Newsletter
         }
     }
 </script>
