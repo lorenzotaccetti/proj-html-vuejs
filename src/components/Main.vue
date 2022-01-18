@@ -9,9 +9,11 @@
         <!-- End Services Area -->
 
         <!-- Process Area -->
+        <Process />
         <!-- End Process Area -->
 
         <!-- Team Area -->
+        <Team />
         <!-- End Team Area -->
 
         <!-- News Area -->
@@ -25,12 +27,16 @@
 <script>
 import Company from './Company.vue';
 import Services from './Services.vue';
+import Process from './Process.vue';
+import Team from './Team.vue'
 
     export default {
         name: 'Main',
         components: {
             Company,
-            Services
+            Services,
+            Process,
+            Team,
         }
     }
 </script>

@@ -6,7 +6,7 @@
             </div>
             <div class="main-area-title">
                 Excellence in 
-                <span class="main-area-title-detail dettaglio">
+                <span class="main-area-title-detail-light">
                     Services
                 </span>
             </div>

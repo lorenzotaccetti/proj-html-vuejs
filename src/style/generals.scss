@@ -49,7 +49,15 @@ body{
     margin-bottom: 20px;
 }
 
-.main-area-title-detail{
+.main-area-title-detail-light{
     padding: 0px 10px;
     border-radius: 7px;
+    background-color: #cbe2de;
+    color: $buttonIconColor;
+}
+
+.main-area-title-detail-dark{
+    padding: 0px 10px;
+    border-radius: 7px;
+    background-color: #0e262d;
 }

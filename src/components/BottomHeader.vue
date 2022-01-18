@@ -62,8 +62,8 @@ import Jumbotron from './Jumbotron.vue'
             .nex_title{
                 border-color: #aedbde;
                 background-color: #aedbde;
-                color: $decorationColor;
-                margin-right: 3px;
+                color: $buttonIconColor;
+                margin-right: 5px;
             }
         }
 

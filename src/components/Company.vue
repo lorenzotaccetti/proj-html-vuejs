@@ -7,7 +7,7 @@
                         About the network
                     </div>
                     <div class="company-title main-area-title">
-                        <span class="dettaglio main-area-title-detail">The</span>
+                        <span class="main-area-title-detail-dark">The</span>
                         Company
                     </div>
                     <div class="company-text">
@@ -78,10 +78,6 @@
 
     .company-title{
         color: white;
-
-        .dettaglio{
-            background-color: #0e262d;
-        }
     }
 
     .company-text{
