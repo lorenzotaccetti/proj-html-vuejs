@@ -17,7 +17,7 @@
                 </div>
                 <div class="process-title">Collection of information</div>
                 <div class="process-text">
-                    Lorem ipsum dolor, sit amet consectetur.
+                    Lorem ipsum dolor sit amet consectetur.
                 </div>
             </div>
             <div class="col-2">
@@ -28,7 +28,7 @@
                     Strategic planning
                 </div>
                 <div class="process-text">
-                    Lorem ipsum dolor, sit amet consectetur.
+                    Lorem ipsum dolor sit amet consectetur.
                 </div>
             </div>
             <div class="col-2">
@@ -39,7 +39,7 @@
                     Assignment of responsibilities
                 </div>
                 <div class="process-text">
-                    Lorem ipsum dolor, sit amet consectetur.
+                    Lorem ipsum dolor sit amet consectetur.
                 </div>
             </div>
             <div class="col-2">
@@ -50,7 +50,7 @@
                     Formatting process
                 </div>
                 <div class="process-text">
-                    Lorem ipsum dolor, sit amet consectetur.
+                    Lorem ipsum dolor sit amet consectetur.
                 </div>
             </div>
             <div class="col-2">
@@ -61,7 +61,7 @@
                     Continuity formalization
                 </div>
                 <div class="process-text">
-                    Lorem ipsum dolor, sit amet consectetur.
+                    Lorem ipsum dolor sit amet consectetur.
                 </div>
             </div>
         </div>

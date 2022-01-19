@@ -55,6 +55,7 @@
     .newsletter-text{
         font-size: $textFontSize;
         color: $lightFontColor;
+        width: 80%;
     }
 
     input{

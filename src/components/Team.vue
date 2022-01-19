@@ -11,7 +11,7 @@
                         of Experts
                     </div>
                     <div class="team-text mb-5">
-                        Ethics and integrity are the bases on which our professionals build their careers. They are fundamentals that become daily attitudes.
+                        Ethics and integrity are the bases on which our professionals build their careers. <br> They are fundamentals that become daily attitudes.
                     </div>
                     <div class=row>
                         <div class="col-6">
@@ -105,7 +105,7 @@
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut lacinia diam.  
                         </div>
                         <div class="team-text mb-3">
-                            Vivamus efficitur et est quis posuere. Nulla sollicitudin vulputate dui, id pretium tortor congue eu. Integer aliquet justo eu quamvolutpatullamcorper.
+                            Vivamus efficitur et est quis posuere. Nulla sollicitudin vulputate dui, id pretium tortor congue eu. Integer aliquet justo eu quam volutpat ullamcorper.
                         </div>
                         <div class="team-text mb-3">
                             Duis ut hendrerit mauris. Phasellus faucibus ut enim vel tincidunt. Nunc venenatis a dui et laoreet.
@@ -134,7 +134,6 @@
 .team-area{
     background-color: $mainFontColor;
     padding: 125px 0;
-    // padding-bottom: 125px;
     color: white;
 
     .team-text{
@@ -166,13 +165,13 @@
     .speech-container{
         background-color: #048383;
         border-radius: 7px;
-        padding: 40px 35px;
+        padding: 30px 35px;
         position: relative;
 
         .quote{
             position: absolute;
-            bottom: 35px;
-            right: 30px;
+            bottom: 25px;
+            right: 25px;
             font-size: 22px;
             color: #036162;
         }
