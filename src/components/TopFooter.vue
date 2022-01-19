@@ -99,6 +99,10 @@
     padding: 125px 0;
     color: white;
 
+    .m_button:hover{
+        background-color: $buttonIconColor;
+    }
+
     .text-logo{
         font-size: 20px;
         font-weight: 600;
@@ -136,10 +140,14 @@
 
             .element-list{
                 cursor: pointer;
+
+                &:hover{
+                    text-decoration: underline;
+                }
             }
 
             i{
-                margin-right: 10px;
+                padding-right: 10px;
             }
         }
     }
