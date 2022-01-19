@@ -13,7 +13,7 @@
         <div class="row mt-5">
             <div class="col-2 offset-1">
                 <div class="number">
-                    <span class="number-decoration">01</span>
+                    01
                 </div>
                 <div class="process-title">Collection of information</div>
                 <div class="process-text">
@@ -22,7 +22,7 @@
             </div>
             <div class="col-2">
                 <div class="number">
-                    <span class="number-decoration">02</span>
+                    02
                 </div>
                 <div class="process-title">
                     Strategic planning
@@ -33,7 +33,7 @@
             </div>
             <div class="col-2">
                 <div class="number">
-                    <span class="number-decoration">03</span>
+                    03
                 </div>
                 <div class="process-title">
                     Assignment of responsibilities
@@ -44,7 +44,7 @@
             </div>
             <div class="col-2">
                 <div class="number">
-                    <span class="number-decoration">04</span>
+                    04
                 </div>
                 <div class="process-title">
                     Formatting process
@@ -55,7 +55,7 @@
             </div>
             <div class="col-2">
                 <div class="number">
-                    <span class="number-decoration">05</span>
+                    05
                 </div>
                 <div class="process-title">
                     Continuity formalization
@@ -65,6 +65,7 @@
                 </div>
             </div>
         </div>
+        <div class="dettaglio"></div>
     </div>
 </template>
 
@@ -81,8 +82,10 @@
 .process-area{
     text-align: center;
     padding: 125px 0;
+    position: relative;
 
     .number{
+        position: relative;
         color: $buttonIconColor;
         font-weight: 600;
         background-color: #d9ebed;
@@ -91,20 +94,30 @@
         line-height: 40px;
         border-radius: 50%;
         display: inline-block;
+        z-index: 3;
+    }
 
-        // .number-decoration{
-        //     display: flex;
-        //     align-items: center;
-        //     justify-content: center;
-        // }
+    .dettaglio{
+        width: 100%;
+        height: 5px;
+        background-color: #d9ebed;
+        position: absolute;
+        top: 56%;
+        left: 0;
+        display: none;
+        z-index: 0;
+    }
 
-        // .number-decoration::before{
-        //     display: inline-block;
-        //     content: '';
-        //     width: 300px;
-        //     height: 5px;
-        //     background-color: #d9ebed;
-        // }
+    @media screen and (min-width: 1071px) {
+        .dettaglio {
+            display: inline-block;
+        }
+    }
+
+    @media screen and (min-width: 1952px) {
+        .dettaglio{
+            display: none;
+        }
     }
 
     .process-text{

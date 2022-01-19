@@ -166,7 +166,7 @@
     .speech-container{
         background-color: #048383;
         border-radius: 7px;
-        padding: 20px 30px;
+        padding: 40px 35px;
         position: relative;
 
         .quote{
