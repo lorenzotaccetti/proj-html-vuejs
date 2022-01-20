@@ -2,7 +2,8 @@
     <div class="company-area">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-6">
+                <div class="col-5">
+                    <!-- Intestazione -->
                     <div class="intestazione">
                         About the network
                     </div>
@@ -17,7 +18,7 @@
                         Curabitur convalis, diam a egestas iaculis, neque lorem interdum felis, in viverra lacus tortor in leo.
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-6 offset-1">
                     <div class="row">
                         <div class="col-6 mb-3">
                             <div class="titolino">
