@@ -34,6 +34,11 @@
 
         .color{
             color: $buttonIconColor;
+            cursor: pointer;
+
+            &:hover{
+                text-decoration: underline;
+            }
         }
     }
 }
